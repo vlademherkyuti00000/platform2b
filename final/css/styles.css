@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    align-items: center;
+
+}
+.home{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f5e1343790085.57fcf9c4adf85.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+  
+}
+.h1home{
+    text-align: center;
+    padding-top: 200px;
+}
+section{
+    height: 100vh;
+
+}
+.about{
+    background-image: url(https://i.pinimg.com/originals/bc/4c/b4/bc4cb4598f1bddc6014f8ef7b0b1761c.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.apps{
+    background-image: url(https://media.tenor.com/3bTxZ4HdrysAAAAC/pixels-neon.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    opacity: .4;
+    border-radius: 20px;
+    
+}
+
+
+@media (max-width: 768px) {
+    .app-container {
+        width: auto;
+    }
+}
